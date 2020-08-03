@@ -22,8 +22,8 @@ popd
 echo "Qual a senha que vc quer?"
 read PWD
 
-sed -e "s/{{PASSWORD}}/$PWD/g"
 cp redis.conf redis.conf.tmp
+sed -i "s/{{PASSWORD}}/$PWD/g" redis.conf.tmp
 
 mkdir /etc/redis
 mkdir /var/redis
@@ -32,7 +32,7 @@ mkdir /var/redis/6379
 cp redis_init_script /etc/init.d/redis_6379
 cp redis.conf.tmp /etc/redis/6379.conf
 
-rm redis.conf.tmb
+rm redis.conf.tmp
 
 update-rc.d redis_6379 defaults
 /etc/init.d/redis_6379 start
