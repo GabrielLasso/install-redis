@@ -15,7 +15,7 @@ sudo apt update && sudo apt upgrade
 sudo apt install git
 git clone https://github.com/Delivery-Direto/install-redis.git
 cd install-redis
-./install-redis.sh
+sudo ./install-redis.sh
 ```
 
 Será pedido para digitar uma senha. Após isso o processo já deve iniciar.
