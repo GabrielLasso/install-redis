@@ -4,7 +4,7 @@ Script para configurar uma instância _stable_ do Redis.
 
 ## Requisitos
 
-_Debian_ ou `Ubuntu` (embora não testado).
+_Debian_(testado) ou _Ubuntu_ (não testado).
 
 ## Instruções
 
@@ -56,7 +56,7 @@ redis-cli -a PASSWORD
 
 ### Referências
 
-https://github.com/redis/redis/issues/6370
-https://serverfault.com/questions/893066/redis-not-starting-with-systemctl
-https://unix.stackexchange.com/questions/99154/disable-transparent-hugepages
-https://github.com/docker-library/redis/issues/35
+- https://github.com/redis/redis/issues/6370
+- https://serverfault.com/questions/893066/redis-not-starting-with-systemctl
+- https://unix.stackexchange.com/questions/99154/disable-transparent-hugepages
+- https://github.com/docker-library/redis/issues/35
