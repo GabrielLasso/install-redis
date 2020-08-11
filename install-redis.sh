@@ -2,7 +2,7 @@
 
 # Author: Gabriel Lasso<https://github.com/gabriellasso>
 # Install redis in a debian machine
-# Must have a redis_init_script and a redis.conf in the same directory
+# Must have a redis.service, disable-transparent-huge-pages.service and a redis.conf in the same directory
 
 if [[ $(id -u) -ne 0 ]]; then
     echo "Please run as root"
