@@ -60,3 +60,4 @@ redis-cli -a PASSWORD
 - https://serverfault.com/questions/893066/redis-not-starting-with-systemctl
 - https://unix.stackexchange.com/questions/99154/disable-transparent-hugepages
 - https://github.com/docker-library/redis/issues/35
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04
